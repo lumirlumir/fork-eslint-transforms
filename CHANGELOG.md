@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.0.0](https://github.com/lumirlumir/fork-eslint-transforms/compare/v3.0.0...v4.0.0) (2025-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade dependencies; set Node.js to 20 ([#26](https://github.com/lumirlumir/fork-eslint-transforms/issues/26))
+* Drop Node < 12, switch to eslint flat config ([#16](https://github.com/lumirlumir/fork-eslint-transforms/issues/16))
+
+### Features
+
+* add transform for v9 migration ([#29](https://github.com/lumirlumir/fork-eslint-transforms/issues/29)) ([528b94f](https://github.com/lumirlumir/fork-eslint-transforms/commit/528b94ffd12b63aa8aad8aabdc38fd5223860d02))
+* Drop Node &lt; 12, switch to eslint flat config ([#16](https://github.com/lumirlumir/fork-eslint-transforms/issues/16)) ([b25c563](https://github.com/lumirlumir/fork-eslint-transforms/commit/b25c563a488cef3e714bceba86e266b6c471354e))
+* Upgrade dependencies; set Node.js to 20 ([#26](https://github.com/lumirlumir/fork-eslint-transforms/issues/26)) ([018e28b](https://github.com/lumirlumir/fork-eslint-transforms/commit/018e28b2ab374267ea0a73e3a045b74aff7023b3))
+
+
+### Bug Fixes
+
+* ensure consistent linebreaks when testing transforms ([#6](https://github.com/lumirlumir/fork-eslint-transforms/issues/6)) ([f2575d8](https://github.com/lumirlumir/fork-eslint-transforms/commit/f2575d875b46efacf5020f733d79535963073a75))
+* use __dirname to find transform files (refs [#2](https://github.com/lumirlumir/fork-eslint-transforms/issues/2)) ([#3](https://github.com/lumirlumir/fork-eslint-transforms/issues/3)) ([6219d0c](https://github.com/lumirlumir/fork-eslint-transforms/commit/6219d0c83695a837cbb8e8c51612dc2f30a2cb24))
+
 ## [3.0.0](https://github.com/eslint/eslint-transforms/compare/v2.0.0...v3.0.0) (2024-06-06)
 
 
